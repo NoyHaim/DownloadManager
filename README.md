@@ -6,8 +6,8 @@ Download manager, supports:
 - Multi-server download (fetching different parts of the file from different servers)
 
 Args:
-- [1]- URL(file link)
-- [2]- Number of parallel HTTP connections.
+- [0]- URL (file link- or a list of links in case of multi-server download)
+- [1]- Number of parallel HTTP connections (optional).
 
 
 Classes:
